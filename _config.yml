@@ -1,26 +1,28 @@
 # main text of home
-title: John Doe
-bio: A Person who travels the world eating noodles
+title: Hicham Ouardi
+bio: CyberSec Engineering Student | Jr. Pentester
+
+
 
 # twitter summary info
-description: A blog about technology and stuff related
+description: A blog about cutting-edge articles and insightful writeups. 
 
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/images/profile.jpg
+picture: assets/images/black.jpg
 
 # your site color theme, true for dark theme, 
 # false to light theme, auto to switch with system.
-dark-theme: auto
+dark-theme: true
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
-resume: true
-resume-external: true
+resume: false
+resume-external: false
 resume-url: https://google.com/?q=my+resume
 
-url: https://sergiokopplin.github.io/indigo
+url: https://h3lli0t.github.io
 # your url: https://USERNAME.github.io
 
 permalink: /:title/
@@ -31,41 +33,43 @@ permalink: /:title/
 # if you don't want comments in your posts, leave categories empty
 disqus:
   shortname: github # enter this from your disqus account
-  categories: [blog, project] # only show disqus for posts that have these categories
+  categories: [] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
-instagram: myinstagram
-linkedin: mylinkedin
-github: mygithub
-email: myemail@gmail.com
+#facebook: myfacebook
+#twitter: mytwitter
+#instagram: myinstagram
+linkedin: hichamouardi
+github: H3lli0t
+email: hicham.ouardi@ump.ac.ma
 
 authors:
   johndoe:
-    name: John Doe
-    bio: A Man who travels the world eating noodles
+    name: Hicham Ouardi
+    bio: CyberSec Engineering Student | Jr. Pentester
     external-image: false
-    picture: assets/images/profile.jpg
-    twitter: johndoe
-  jamesfoster:
-    name: James Foster
-    bio: A Man who develops software with coffee
-    external-image: false
-    picture: assets/images/james.jpg
-    twitter: jamesfoster
+    picture: assets/images/black.jpg
+    twitter: H3lli0t
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
 # normal = 560px / large = 810px
-width: normal
+width: large
+
+# if you do/don't need pagination, toggle 'enabled' between true/false below
+pagination:
+  enabled: false
+  sort_reverse: true # display recent posts first
+  title: ":title" # Changing this will mess up the header display logic
+  per_page: 5
+  permalink: "/:num/" # pagination link that will be appended
 
 # if you don't need projects, comment the *projects* configs below
-projects: true
+writeups: true
 
 # if you don't need "about" or "blog", comment them out below
 about: true
-blog: true
+blogs: true
 
 # do you want to show the "read time" of the posts?
 read-time: true
@@ -77,7 +81,7 @@ show-tags: true
 related: true
 
 # Display links for next and previous posts for the specified categories
-post-advance-links: [blog]
+post-advance-links: [blogs]
 
 # show author block at the end of a post ?
 show-author: true
@@ -100,6 +104,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jemoji
+  - jekyll-paginate-v2
 
 compress_html:
   ignore:

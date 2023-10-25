@@ -2,44 +2,76 @@
 title: About
 layout: page
 ---
+
 ![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
 
-<p>Lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>I am a <strong>Cybersecurity engineering student</strong> at <strong>National School of Applied Siences</strong> of <strong>Oujda, Morocco</strong>, with a strong passion for <strong>Ethical Hacking</strong>, <strong>Offensive Security</strong>, <strong>Network & Web Application Pentesting</strong>.<p>
+<p>I am an enthusiastic learner who actively seeks opportunities to enhance my skills in this field by actively participating in <strong>TryHackMe</strong>, <strong>HackTheBox</strong>, and various CTF platforms.</p>
+<p>I firmly believe that mastering cybersecurity is knowing that you will always remain a student in the world of cybersecurity.</p>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
 <h2>Skills</h2>
 
+<h4>Programming Languages</h4>
+
 <ul class="skill-list">
-	<li>HTML - Jade - Haml - Erb</li>
-	<li>Responsive (Mobile First)</li>
-	<li>CSS (Stylus, Sass, Less)</li>
-	<li>Css Frameworks (Bootstrap, Foundation)</li>
-	<li>Javascript (Design Patterns, Testes)</li>
-	<li>AngularJS - ReactJS</li>
-	<li>Grunt - Gulp - Yeoman</li>
-	<li>Git</li>
-	<li>PHP</li>
-	<li>Python</li>
-	<li>MySQL - MongoDB</li>
-	<li>Scrum and Kanban</li>
-	<li>TDD e Continuous Integration</li>
+	<li>Python, C, BASH, PHP, JavaScript, SQL.</li>
 </ul>
+
+<h4>Penetration Testing</h4>
+
+<ul class="skill-list">
+	<li>BurpSuite, Wireshark, Metasploit, Nessus, Nmap, Gobuster, ffuf, JohnTheRipper, Hashcat, Hydra, BloodHound, SQLMap, Aircrack-ng.</li>
+</ul>
+
+<h4>Other Tools</h4>
+
+<ul class="skill-list">
+	<li>Ghidra, JADX, ILSpy, Autopsy, Volatility, Splunk, ELK, Snort, Brim, Redline.</li>
+</ul>
+
+
+<h2>Certifications</h2>
+
+<ul class="skill-list">
+	<li><a href="https://www.credential.net/38e45fd9-dbc2-44ef-9e33-ed6560e28fc4?username=hichamouardi">Practical Ethical Hacking</a></li>
+	<li><a href="https://www.credential.net/8eb4b685-118e-4b0a-bce3-e5a53b32695b?username=hichamouardi">Practical Web Application Security and Testing</a></li>
+	<li><a href="https://www.credential.net/400c4ad5-4c01-4b4a-adb2-3545fd7a662f?username=hichamouardi">Linux Privilege Escalation for Beginners</a></li>
+	<li><a href="https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-6QRZFTUM2M.png">Jr Penetration Tester</a></li>
+	<li><a href="https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-49GKDD3PL8.png">CompTIA PenTest+</a></li>
+	<li><a href="https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-EM0A3EYCBH.png">Cyber Defense</a></li>
+	<li><a href="https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-JBLJIQ9VXJ.png">SOC Level 1</a></li>
+	<li><a href="https://www.coursera.org/account/accomplishments/verify/YDRY4RY9KATG?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course">The Bits and Bytes of Computer Networking</a></li>
+	<li><a href="https://www.credential.net/4435ea09-6a06-4413-b913-1d5497005cb9?username=hichamouardi425862#gs.4b6icl">NSE 1 Network Security Associate</a></li>
+	<li><a href="https://www.credential.net/0068d8a8-e2b3-449d-a6c7-02110721d668?username=hichamouardi425862#gs.5gkjzy">NSE 2 Network Security Associate</a></li>
+	<li><a href="https://www.credential.net/cb7cf74e-59a8-425e-ba34-65bba6eb4a48?username=hichamouardi425862#gs.89j7q5">NSE 3 Network Security Associate</a></li>
+	<li><a href="https://www.sololearn.com/certificates/course/en/18594447/1073/landscape/png">Python Core</a></li>
+</ul>
+
 
 <h2>Projects</h2>
 
 <ul>
-	<li><a href="https://github.com/">Lorem Lorem</a></li>
-	<li><a href="https://github.com/">Ipsum Dolor</a></li>
-	<li><a href="https://github.com/">Dolor Lorem</a></li>
+	<li><a href="https://github.com/H3lli0t/MobileApp-Pentesting-Password-Managers">Android Static and Dynamic Analysis of password managers</a></li>
+	<li><a href="https://github.com/H3lli0t/NIDS">Building a Network Intrusion Detection System (NIDS)</a></li>
+	<li>Automatisation of Disk image Analysis.</li>
+</ul>
+
+
+<h2>Notible CTF Accomplishments</h2>
+
+<ul>
+	<li>2023 - 2nd Place National CTF ENSIAS MCSC V10.0.</li>
+	<li>2022 - 1st Place Local CTF ENSAO.</li>
+	<li>2022 - Among Top 10 students in CyberTalents's Bootcamp.</li>
+	<li>2022 - 2nd Team in Morocco CTFTime.</li>
+</ul>
+
+<h2>Socials</h2>
+<ul class="skill-list">
+	<li><a href="https://www.linkedin.com/in/hichamouardi">Linkedin</a></li>
+	<li><a href="https://github.com/H3lli0t">Github</a></li>
+	<li><a href="https://tryhackme.com/p/H3lli0t">TryHackMe Profile</a></li>
+	<li><a href="https://app.hackthebox.com/users/859520">HackTheBox Profile</a></li>
+	<li><a href="https://cybertalents.com/members/H3lli0t/profile">CyberTalents Profile</a></li>
 </ul>
