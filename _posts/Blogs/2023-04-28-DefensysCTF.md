@@ -11,21 +11,20 @@ tag:
 - Cryptography
 - Steganography
 - Rev
-star: true
+star: false
 category: blogs
 author: johndoe
 description: Some challenges that I made for the local DefenSys CTF at National School of Applied Siences of Oujda, Morocco.
+
 ---
 
-![DefenSys][1]
-
-## Summary:
+# Overview
 
 Some challenges that I made for the local DefenSys CTF at National School of Applied Siences of Oujda.
 
 ---
 
-## Categories:
+# Categories
 
 - [Cryptography](#https://github.com/H3lli0t/DefenSysCTF/tree/Intro/Cryptography)
 - [Forensics](#https://github.com/H3lli0t/DefenSysCTF/tree/Intro/Forensics/MrRobot)
@@ -38,6 +37,3 @@ Some challenges that I made for the local DefenSys CTF at National School of App
 Give those challenges a try, I would like to hear your feedbacks. If you have any questions don't hesitate to [Contact Me](https://www.linkedin.com/in/hichamouardi).
 
 <p>Happy Hacking!</p>
-
-
-[1]: https://i1.sndcdn.com/avatars-000674678681-aiisu8-t500x500.jpg

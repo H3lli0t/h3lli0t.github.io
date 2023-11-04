@@ -18,6 +18,7 @@ description: "A meduim TryHackMe box, with basic web enumeration and API fuzzing
 category: project
 author: johndoe
 externalLink: false
+star: false
 ---
 
 # Summary

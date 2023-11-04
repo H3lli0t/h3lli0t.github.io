@@ -2,8 +2,6 @@
 title: Hicham Ouardi
 bio: CyberSec Engineering Student | Jr. Pentester
 
-
-
 # twitter summary info
 description: A blog about cutting-edge articles and insightful writeups. 
 
@@ -48,7 +46,7 @@ authors:
     name: Hicham Ouardi
     bio: CyberSec Engineering Student | Jr. Pentester
     external-image: false
-    picture: assets/images/black.jpg
+    picture: assets/images/black.png
     twitter: H3lli0t
 
 # do you want a larger site? change the option below

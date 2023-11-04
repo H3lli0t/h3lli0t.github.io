@@ -8,7 +8,7 @@ tag:
 - Pentesting
 - Machines
 - TwoMillion
-- Retired
+- API
 - Easy
 image: https://www.hackthebox.com/storage/avatars/d7bc2758fb7589dfa046bee9ce4d75cb.png
 headerImage: true
@@ -18,11 +18,12 @@ description: "An easy retired HackTheBox machine."
 category: project
 author: johndoe
 externalLink: false
+star: false
 ---
 
-# Summary
+# Overview
 
-An easy retired HackTheBox machine.
+TwoMillion is an easy linux box that features an old version of the HackTheBox platform that includes the old hackable invite code. After hacking the invite code an account can be created on the platform. The account can be used to enumerate various API endpoints, one of which can be used to elevate the user to an Administrator. With administrative access the user can perform a command injection in the admin VPN generation endpoint thus gaining a system shell. An .env file is found to contain database credentials and owed to password re-use the attackers can login as user admin on the box. The system kernel is found to be outdated and a known CVE can be used to gain a root shell.
 
 ---
 

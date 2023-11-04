@@ -8,7 +8,6 @@ tag:
 - Pentesting
 - Machines
 - Academy
-- Retired
 - Easy
 image: https://www.hackthebox.com/storage/avatars/10c8da0b46f53c882da946668dcdab95.png
 headerImage: true
@@ -18,11 +17,12 @@ description: "An easy retired HackTheBox machine."
 category: project
 author: johndoe
 externalLink: false
+star: false
 ---
 
-# Summary
+# Overview
 
-An easy retired HackTheBox machine.
+Academy is the box HTB used, in classic HTB style, to soft launch the HTB Academy platform. It featured a clone of the Academy website with a web application vulnerability like a real-world web application penetration test, followed by a vulnerable version of the PHP Laravel framework in use by the platform. It required common Linux enumeration tasks to perform lateral movement and privilege escalation.
 
 ---
 
