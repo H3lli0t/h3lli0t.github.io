@@ -6,7 +6,7 @@ tag:
 - TryHackMe
 - Pentesting
 - Bookstore
-- Linux
+- Fuzzing
 - Web
 - Meduim
 - API
@@ -21,7 +21,7 @@ externalLink: false
 star: false
 ---
 
-# Summary
+# Overview
 
 A meduim TryHackMe box, with basic web enumeration and API fuzzing.
 

