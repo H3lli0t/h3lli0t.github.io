@@ -1,7 +1,7 @@
 ---
 title: "Academy HackTheBox"
 layout: post
-date: 2023-07-16 17:00
+date: 2023-10-16 17:00
 tag: 
 - HackTheBox
 - Linux

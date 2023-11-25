@@ -1,7 +1,7 @@
 ---
 title: "DefenSys CTF"
 layout: post
-date: 2023-04-28 22:44
+date: 2023-08-01 22:44
 image: /assets/images/defensys.jpg
 headerImage: true
 tag:

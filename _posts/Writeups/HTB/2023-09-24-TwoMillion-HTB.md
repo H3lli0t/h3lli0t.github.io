@@ -1,7 +1,7 @@
 ---
 title: "TwoMillion HackTheBox"
 layout: post
-date: 2023-07-29 18:00
+date: 2023-09-24 18:00
 tag: 
 - HackTheBox
 - Linux

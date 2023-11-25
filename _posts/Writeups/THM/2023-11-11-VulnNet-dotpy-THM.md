@@ -1,7 +1,7 @@
 ---
 title: "VulnNet: dotpy TryHackMe"
 layout: post
-date: 2023-09-20 19:00
+date: 2023-11-11 19:00
 tag: 
 - TryHackMe
 - Pentesting

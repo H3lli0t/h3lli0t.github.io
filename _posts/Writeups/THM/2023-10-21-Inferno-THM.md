@@ -1,7 +1,7 @@
 ---
 title: "Inferno TryHackMe"
 layout: post
-date: 2023-08-19 19:00
+date: 2023-10-21 19:00
 tag: 
 - TryHackMe
 - Pentesting

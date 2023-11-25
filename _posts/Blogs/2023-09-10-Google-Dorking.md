@@ -1,7 +1,7 @@
 ---
 title: "Google Dorking"
 layout: post
-date: 2023-06-14 22:44
+date: 2023-09-10 22:44
 image: /assets/images\BlogPics/dork.jpg
 headerImage: true
 tag:
@@ -26,7 +26,7 @@ Those contents may include confidential data like usernames, passwords, credit c
 
 Google Dorks aren't restricted to Google alone, they can also be employed with search engines such as Bing and Yahoo. While the outcomes may differ, they still fulfill the same objective.
 
-<br/>
+---
 
 # Google Dorking Commands
 

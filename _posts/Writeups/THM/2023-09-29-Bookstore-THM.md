@@ -1,7 +1,7 @@
 ---
 title: "Bookstore TryHackMe"
 layout: post
-date: 2023-08-06 19:00
+date: 2023-09-29 19:00
 tag: 
 - TryHackMe
 - Pentesting
