@@ -22,13 +22,13 @@ layout: page
 <h4>Penetration Testing</h4>
 
 <ul class="skill-list">
-	<li>BurpSuite, Wireshark, Metasploit, Nessus, Nmap, Gobuster, ffuf, JohnTheRipper, Hashcat, Hydra, BloodHound, SQLMap, Aircrack-ng.</li>
+	<li>BurpSuite, Wireshark, Metasploit, Nessus, Nikto, Nmap, Gobuster, ffuf, JohnTheRipper, Hashcat, Hydra, BloodHound, SQLMap, Aircrack-ng.</li>
 </ul>
 
 <h4>Other Tools</h4>
 
 <ul class="skill-list">
-	<li>Ghidra, JADX, ILSpy, Autopsy, Volatility, Splunk, ELK, Snort, Brim, Redline.</li>
+	<li>Ghidra, JADX, ILSpy, Autopsy, Volatility, Splunk, ELK, Snort, Brim.</li>
 </ul>
 
 <br/>
@@ -40,8 +40,6 @@ layout: page
 	<li><a href="https://www.credential.net/8eb4b685-118e-4b0a-bce3-e5a53b32695b?username=hichamouardi">Practical Web Application Security and Testing</a></li>
 	<li><a href="https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-6QRZFTUM2M.png">Jr Penetration Tester</a></li>
 	<li><a href="https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-49GKDD3PL8.png">CompTIA PenTest+</a></li>
-	<li><a href="https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-EM0A3EYCBH.png">Cyber Defense</a></li>
-	<li><a href="https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-JBLJIQ9VXJ.png">SOC Level 1</a></li>
 	<li><a href="https://www.credential.net/4435ea09-6a06-4413-b913-1d5497005cb9?username=hichamouardi425862#gs.4b6icl">NSE 1 Network Security Associate</a></li>
 	<li><a href="https://www.credential.net/0068d8a8-e2b3-449d-a6c7-02110721d668?username=hichamouardi425862#gs.5gkjzy">NSE 2 Network Security Associate</a></li>
 	<li><a href="https://www.credential.net/cb7cf74e-59a8-425e-ba34-65bba6eb4a48?username=hichamouardi425862#gs.89j7q5">NSE 3 Network Security Associate</a></li>

@@ -5,7 +5,7 @@ date: 2023-11-25 12:00
 tag: 
 - HackTheBox
 - Pentesting
-- Pilgimage
+- Pilgrimage
 - Linux
 - Easy
 - Git Tools
