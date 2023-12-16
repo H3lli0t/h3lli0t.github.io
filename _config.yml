@@ -1,6 +1,6 @@
 # main text of home
 title: Hicham Ouardi
-bio: Cybersecurity Engineering Student | Penetration Tester
+bio: Cybersecurity Engineering Student | Jr. Penetration Tester
 
 # twitter summary info
 description: A blog about cutting-edge articles and insightful writeups. 
@@ -44,7 +44,7 @@ email: hicham.ouardi@ump.ac.ma
 authors:
   johndoe:
     name: Hicham Ouardi
-    bio: Cybersecurity Engineering Student | Penetration Tester
+    bio: Cybersecurity Engineering Student | Jr. Penetration Tester
     external-image: false
     picture: assets/images/black.jpg
     twitter: H3lli0t
