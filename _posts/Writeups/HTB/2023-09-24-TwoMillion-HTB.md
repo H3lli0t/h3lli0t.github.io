@@ -1,5 +1,5 @@
 ---
-title: "TwoMillion HackTheBox"
+title: "HackTheBox | TwoMillion"
 layout: post
 date: 2023-09-24 18:00
 tag: 

@@ -1,5 +1,5 @@
 ---
-title: "The Return of the Yeti"
+title: "TryHackMe | The Return of the Yeti"
 layout: post
 date: 2023-12-28 16:00
 tag: 

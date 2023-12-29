@@ -1,5 +1,5 @@
 ---
-title: "Academy HackTheBox"
+title: "HackTheBox | Academy"
 layout: post
 date: 2023-10-16 17:00
 tag: 

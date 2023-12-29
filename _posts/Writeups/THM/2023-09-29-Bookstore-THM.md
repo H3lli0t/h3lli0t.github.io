@@ -1,5 +1,5 @@
 ---
-title: "Bookstore TryHackMe"
+title: "TryHackMe | Bookstore"
 layout: post
 date: 2023-09-29 19:00
 tag: 

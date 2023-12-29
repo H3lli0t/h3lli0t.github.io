@@ -1,5 +1,5 @@
 ---
-title: "Pilgrimage HackTheBox"
+title: "HackTheBox | Pilgrimage"
 layout: post
 date: 2023-11-25 12:00
 tag: 

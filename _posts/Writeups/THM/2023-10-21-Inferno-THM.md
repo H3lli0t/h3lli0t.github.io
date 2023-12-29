@@ -1,5 +1,5 @@
 ---
-title: "Inferno TryHackMe"
+title: "TryHackMe | Inferno"
 layout: post
 date: 2023-10-21 19:00
 tag: 

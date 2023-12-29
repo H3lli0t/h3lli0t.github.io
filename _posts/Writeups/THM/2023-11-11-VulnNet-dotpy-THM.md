@@ -1,5 +1,5 @@
 ---
-title: "VulnNet: dotpy TryHackMe"
+title: "TryHackMe | VulnNet: dotpy"
 layout: post
 date: 2023-11-11 19:00
 tag: 

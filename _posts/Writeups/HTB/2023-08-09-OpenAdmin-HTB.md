@@ -1,5 +1,5 @@
 ---
-title: "OpenAdmin HackTheBox"
+title: "HackTheBox | OpenAdmin"
 layout: post
 date: 2023-08-09 19:00
 tag: 

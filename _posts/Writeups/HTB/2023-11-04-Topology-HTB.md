@@ -1,5 +1,5 @@
 ---
-title: "Topology HackTheBox"
+title: "HackTheBox | Topology"
 layout: post
 date: 2023-11-04 20:00
 tag: 

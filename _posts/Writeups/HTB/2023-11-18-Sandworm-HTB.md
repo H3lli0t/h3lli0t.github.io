@@ -1,5 +1,5 @@
 ---
-title: "Sandworm HackTheBox"
+title: "HackTheBox | Sandworm"
 layout: post
 date: 2023-11-18 12:00
 tag: 

@@ -28,7 +28,7 @@ layout: page
 <h4>Other Tools</h4>
 
 <ul class="skill-list">
-	<li>Ghidra, JADX, ILSpy, Autopsy, Volatility, Splunk, ELK, Snort, Brim.</li>
+	<li>Ghidra, JADX, ILSpy, DNSpy, Autopsy, Volatility, Splunk, ELK, Brim.</li>
 </ul>
 
 <br/>
@@ -37,6 +37,7 @@ layout: page
 
 <ul class="skill-list">
 	<li><a href="https://www.credential.net/38e45fd9-dbc2-44ef-9e33-ed6560e28fc4?username=hichamouardi">Practical Ethical Hacking</a></li>
+	<li><a href="https://www.credential.net/400c4ad5-4c01-4b4a-adb2-3545fd7a662f?username=hichamouardi">Linux Privilege Escalation</a></li>
 	<li><a href="https://www.credential.net/8eb4b685-118e-4b0a-bce3-e5a53b32695b?username=hichamouardi">Practical Web Application Security and Testing</a></li>
 	<li><a href="https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-6QRZFTUM2M.png">Jr Penetration Tester</a></li>
 	<li><a href="https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-49GKDD3PL8.png">CompTIA PenTest+</a></li>

@@ -1,5 +1,5 @@
 ---
-title: "VulnNet: dotjar TryHackMe"
+title: "TryHackMe | VulnNet: dotjar"
 layout: post
 date: 2023-11-22 19:00
 tag: 
