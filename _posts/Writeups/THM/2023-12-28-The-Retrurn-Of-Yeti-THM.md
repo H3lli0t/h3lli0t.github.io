@@ -24,6 +24,8 @@ star: false
 
 The Return of the Yeti 1 is the first challenge in the **Advent of Cyber 2023 Side Quest** which is a series of four connected challenges. These challenges have no additional guidance and range between "Hard" and "Insane" difficulty levels.
 
+---
+
 ![Alt text](<../../../assets/images/THMPics/Pasted image 20231204220645.png>)
 
 ![Alt text](<../../../assets/images/THMPics/Pasted image 20231204220811.png>)
