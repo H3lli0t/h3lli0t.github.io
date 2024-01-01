@@ -1,7 +1,7 @@
 ---
 title: "TryHackMe | The Bandit Surfer"
 layout: post
-date: 2023-12-30 16:00
+date: 2024-01-01 16:00
 tag: 
 - TryHackMe
 - Pentesting
