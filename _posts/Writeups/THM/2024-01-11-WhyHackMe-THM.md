@@ -23,7 +23,7 @@ star: false
 
 # Overview
 
-The Bandit Surfer is a meduim TryHackMe linux machine which is described as a combo of compromising and analysis for security enthusiasts.
+The Bandit Surfer is a medium TryHackMe linux machine which is described as a combo of compromising and analysis for security enthusiasts.
 
 ---
 
