@@ -26,11 +26,11 @@ Some challenges that I made for the local DefenSys CTF at National School of App
 
 # Categories
 
-- [Cryptography](#https://github.com/H3lli0t/DefenSysCTF/tree/Intro/Cryptography)
-- [Forensics](#https://github.com/H3lli0t/DefenSysCTF/tree/Intro/Forensics/MrRobot)
-- [Steganography](#https://github.com/H3lli0t/DefenSysCTF/tree/Intro/Steganography)
-- [Reverse Engineering](#https://github.com/H3lli0t/DefenSysCTF/tree/Intro/Reverse%20Engineering/R3v_m3)
-- [Miscellaneous](#https://github.com/H3lli0t/DefenSysCTF/tree/Intro/Misc)
+- [Cryptography](https://github.com/H3lli0t/DefenSysCTF/tree/Intro/Cryptography)
+- [Forensics](https://github.com/H3lli0t/DefenSysCTF/tree/Intro/Forensics/MrRobot)
+- [Steganography](https://github.com/H3lli0t/DefenSysCTF/tree/Intro/Steganography)
+- [Reverse Engineering](https://github.com/H3lli0t/DefenSysCTF/tree/Intro/Reverse%20Engineering/R3v_m3)
+- [Miscellaneous](https://github.com/H3lli0t/DefenSysCTF/tree/Intro/Misc)
 
 <br/>
 
