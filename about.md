@@ -5,7 +5,7 @@ layout: page
 
 # $ WHOAMI
 
-<p>I am a <strong>Cybersecurity engineering student</strong> at <strong>National School of Applied Siences</strong> of <strong>Oujda, Morocco</strong>, with a strong passion for <strong>Ethical Hacking</strong>, <strong>Offensive Security</strong>, <strong>Network & Web Application Pentesting</strong>.<p>
+<p>I am a <strong>Cybersecurity engineering student</strong>, with a strong passion for <strong>Ethical Hacking</strong>, <strong>Offensive Security</strong>, <strong>Network & Web Application Pentesting</strong>.<p>
 <p>I am an enthusiastic learner who actively seeks opportunities to enhance my skills in this field by actively participating in <strong>TryHackMe</strong>, <strong>HackTheBox</strong>, and various CTF platforms.</p>
 <p>I firmly believe that mastering cybersecurity is knowing that you will always remain a student in the world of cybersecurity.</p>
 
@@ -36,7 +36,9 @@ layout: page
 <h2>Certifications</h2>
 
 <ul class="skill-list">
+	<li><a href="https://www.credential.net/b7e3e0ab-ac1c-403e-8806-b1913e73470f?username=hichamouardi">Practical API Hacking</a></li>
 	<li><a href="https://www.credential.net/38e45fd9-dbc2-44ef-9e33-ed6560e28fc4?username=hichamouardi">Practical Ethical Hacking</a></li>
+	<li><a href="https://www.credential.net/31b50bc6-d414-4dd9-8a57-0c99487b14c8?username=hichamouardi">Windows Privilege Escalation</a></li>
 	<li><a href="https://www.credential.net/400c4ad5-4c01-4b4a-adb2-3545fd7a662f?username=hichamouardi">Linux Privilege Escalation</a></li>
 	<li><a href="https://www.credential.net/8eb4b685-118e-4b0a-bce3-e5a53b32695b?username=hichamouardi">Practical Web Application Security and Testing</a></li>
 	<li><a href="https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-6QRZFTUM2M.png">Jr Penetration Tester</a></li>
