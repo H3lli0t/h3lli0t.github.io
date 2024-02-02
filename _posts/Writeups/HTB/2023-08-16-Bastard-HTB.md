@@ -8,9 +8,9 @@ tag:
 - Bastard
 - Windows
 - Medium
-- perl_startup
-- SUID
-- NFS
+- Drupal
+- PHP
+- MS10-059
 image: https://labs.hackthebox.com/storage/avatars/a8d2ae87fbe6d1ccfe93522d74defb3a.png
 headerImage: true
 writeups: true
