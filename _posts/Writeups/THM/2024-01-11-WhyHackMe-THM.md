@@ -311,6 +311,9 @@ I can privesc easily by using the `sudo su` command :
 
 ![Alt text](<../../../assets/images/THMPics/Pasted image 20240111151254.png>)
 
+<br/>
+
+# MACHINE PWNED!
 
 <br/>
 
