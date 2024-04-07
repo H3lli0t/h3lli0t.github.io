@@ -1,5 +1,5 @@
 ---
-title: "Analytics HackTheBox"
+title: "HackTheBox | Analytics"
 layout: post
 date: 2024-03-30 21:00
 tag: 
