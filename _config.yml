@@ -8,7 +8,7 @@ description: A blog about cutting-edge articles and insightful writeups.
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/images/black.jpg
+picture: assets/images/Elliot.jpg
 
 # your site color theme, true for dark theme, 
 # false to light theme, auto to switch with system.
@@ -46,7 +46,7 @@ authors:
     name: Hicham Ouardi
     bio: Cybersecurity Engineering Student | Jr. Penetration Tester
     external-image: false
-    picture: assets/images/black.jpg
+    picture: assets/images/Elliot.jpg
     twitter: H3lli0t
 
 # do you want a larger site? change the option below
