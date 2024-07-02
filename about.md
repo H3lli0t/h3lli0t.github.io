@@ -5,31 +5,9 @@ layout: page
 
 # $ WHOAMI
 
-<p>I am a <strong>Cybersecurity engineering student</strong>, with a strong passion for <strong>Ethical Hacking</strong>, <strong>Offensive Security</strong>, <strong>Network & Web Application Pentesting</strong>.<p>
-<p>I am an enthusiastic learner who actively seeks opportunities to enhance my skills in this field by actively participating in <strong>TryHackMe</strong>, <strong>HackTheBox</strong>, and various CTF platforms.</p>
-<p>I firmly believe that mastering cybersecurity is knowing that you will always remain a student in the world of cybersecurity.</p>
+<p>I am a freshly graduated <strong>Cybersecurity Engineer</strong> with a strong passion for offensive security. Currently, I am an <strong>Offensive Security Intern</strong>, where my mission involves Web Application penetration testing, external & internal penetration testing, and configuration audits.</p>
 
-<br/>
-
-<h2>Skills</h2>
-
-<h4>Programming Languages</h4>
-
-<ul class="skill-list">
-	<li>Python, C, BASH, PHP, JavaScript, SQL.</li>
-</ul>
-
-<h4>Penetration Testing</h4>
-
-<ul class="skill-list">
-	<li>BurpSuite, Wireshark, Metasploit, Nessus, Nikto, Nmap, Gobuster, ffuf, JohnTheRipper, Hashcat, Hydra, BloodHound, SQLMap, Aircrack-ng.</li>
-</ul>
-
-<h4>Other Tools</h4>
-
-<ul class="skill-list">
-	<li>Ghidra, JADX, ILSpy, DNSpy, Autopsy, Volatility, Splunk, ELK, Brim.</li>
-</ul>
+<p><i>"Enjoy the nerves while you enjoy the process."</i></p>
 
 <br/>
 
@@ -43,20 +21,21 @@ layout: page
 	<li><a href="https://www.credential.net/8eb4b685-118e-4b0a-bce3-e5a53b32695b?username=hichamouardi">Practical Web Application Security and Testing</a></li>
 	<li><a href="https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-6QRZFTUM2M.png">Jr Penetration Tester</a></li>
 	<li><a href="https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-49GKDD3PL8.png">CompTIA PenTest+</a></li>
-	<li><a href="https://www.credential.net/4435ea09-6a06-4413-b913-1d5497005cb9?username=hichamouardi425862#gs.4b6icl">NSE 1 Network Security Associate</a></li>
-	<li><a href="https://www.credential.net/0068d8a8-e2b3-449d-a6c7-02110721d668?username=hichamouardi425862#gs.5gkjzy">NSE 2 Network Security Associate</a></li>
-	<li><a href="https://www.credential.net/cb7cf74e-59a8-425e-ba34-65bba6eb4a48?username=hichamouardi425862#gs.89j7q5">NSE 3 Network Security Associate</a></li>
 </ul>
 
 <br/>
 
 <h2>Projects</h2>
 
-<ul>
-	<li><a href="https://github.com/H3lli0t/MobileApp-Pentesting-Password-Managers">Android Static and Dynamic Analysis of password managers</a></li>
-	<li><a href="https://github.com/H3lli0t/NIDS">Building a Network Intrusion Detection System (NIDS)</a></li>
-	<li>Automatisation of Disk image Analysis.</li>
-</ul>
+#### 1. AuditHound
+- Developing a security tool based on BloodHound's results during AD security audits.
+- This tool automates the security audit task for Active Directory environments by leveraging the results of BloodHound.
+- It generates detailed reports, typically in Excel format, that summarize identified security misconfigurations. These reports also include actionable recommendations for resolving the identified AD security issues.
+
+#### 2. Android Static and Dynamic Analysis of password managers
+- The idea of this project is to decompile and analyze a set of eight popular password managers on Android to check if they correctly handle the master password.
+- Tools used: Genymotion, JADX, Ghidra, Apktool, ADB, BurpSuite, Frida, Objection.
+- Software analyzed: 1Password, LastPass, Keeper, Sticky Password, Password Depot, NordPass, Bitwarden, mSecure.
 
 <br/>
 
