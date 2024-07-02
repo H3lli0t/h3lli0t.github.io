@@ -9,6 +9,11 @@ layout: page
 
 <p><i>"Enjoy the nerves while you enjoy the process."</i></p>
 
+<div style="display: flex;">
+    <img src="https://tryhackme-badges.s3.amazonaws.com/H3lli0t.png" alt="TryHackMe" style="width: 300px; height: auto; margin-right: 10px;">
+    <img src="https://www.hackthebox.eu/badge/image/859520" alt="HackTheBox" style="width: 300px; height: auto;">
+</div>
+
 <br/>
 
 <h2>Certifications</h2>
