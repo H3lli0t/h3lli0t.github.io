@@ -7,7 +7,7 @@ layout: page
 
 <p>I am a freshly graduated <strong>Cybersecurity Engineer</strong> with a strong passion for offensive security. Currently, I am an <strong>Offensive Security Intern</strong>, where my mission involves Web Application penetration testing, external & internal penetration testing, and configuration audits.</p>
 
-<p><i>"Enjoy the nerves while you enjoy the process."</i></p>
+<p><i>"Embrace the nerves while enjoying the process."</i></p>
 
 <div style="display: flex;">
     <img src="https://tryhackme-badges.s3.amazonaws.com/H3lli0t.png" alt="TryHackMe" style="width: 300px; height: auto; margin-right: 10px;">
