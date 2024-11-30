@@ -5,7 +5,7 @@ layout: page
 
 # $ WHOAMI
 
-<p>I am a freshly graduated <strong>Cybersecurity Engineer</strong> with a strong passion for offensive security. Currently, I am an <strong>Offensive Security Intern</strong>, where my mission involves Web Application penetration testing, external & internal penetration testing, and configuration audits.</p>
+<p>I am a <strong>Cybersecurity Engineer</strong> with a deep passion for offensive security. Currently, as an <strong>Offensive Security Consultant</strong>, I focus on Web Application Penetration Testing, API Penetration Testing, Mobile Application Penetration Testing, Internal Penetration Testing and Thick Client Penetration Testing.
 
 <p><i>"Embrace the nerves while enjoying the process."</i></p>
 
@@ -39,7 +39,6 @@ layout: page
 
 #### 2. Android Static and Dynamic Analysis of password managers
 - The idea of this project is to decompile and analyze a set of eight popular password managers on Android to check if they correctly handle the master password.
-- Tools used: Genymotion, JADX, Ghidra, Apktool, ADB, BurpSuite, Frida, Objection.
 - Software analyzed: 1Password, LastPass, Keeper, Sticky Password, Password Depot, NordPass, Bitwarden, mSecure.
 
 <br/>
